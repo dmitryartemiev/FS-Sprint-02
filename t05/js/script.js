@@ -1,7 +1,8 @@
 'use strict'
 
 let total = (addCount, addPrice, currentTotal = 0) => {
-    return (addCount * addPrice) + currentTotal
+    let result = (addCount * addPrice) + currentTotal;
+    return result.toFixed(2)
 }
 
 // test
