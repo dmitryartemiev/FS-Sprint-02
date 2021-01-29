@@ -11,7 +11,5 @@ let capLastName = lastName[0].toUpperCase() + (lastName.slice(1)).toLowerCase();
 
 alert('Greetings ' + capFirstName + ' ' + capLastName) 
 } else {
-
     alert ('Wrong input!')
-    
 }
